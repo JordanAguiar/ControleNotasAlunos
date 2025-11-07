@@ -30,6 +30,11 @@ float CalcularMedia()
 void MostrarResultado()
 {
     printf("A média final do respectivo aluno é: %.2f", media);
+    if (media < 6.0)
+        printf("\nO Aluno foi reprovado;");
+    
+    else
+        printf("\nO aluno foi aprovado");
 }
 
 //Escopo Global
